@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="green">#C1E1A6</color>
+    <color name="White">#FFFFFF</color>
+    <!--initialize colors-->
+    <color name="mSlateBlue">#7B68EE</color>
+    <color name="pVioletRed">#DB7093</color>
+    <color name="Maroon">#800000</color>
+    <color name="LightGray">#D3D3D3</color>
+    <color name="MidnightBlue">#191970</color>
+    <!--Colors 25-50-->
+    <color name="IndianRed">#CD5C5C</color>
+    <color name="Lawngreen">#6A5ACD</color>
+    <color name="OrangeRed">#FF4500</color>
+    <color name="DogerBlue">#1E90FF</color>
+    <!--Colors 50-75-->
+
+
+</resources>

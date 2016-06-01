@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_main_text"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textAlignment="center"
+        android:textColor="@color/White"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_btn_text"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/White"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+    <Button
+        android:id="@+id/momabtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_visit"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:textAlignment="center"
+        android:textColor="@color/White"
+        android:background="@color/colorPrimary"
+        android:textSize="10dp"
+        android:layout_alignParentLeft="true" />
+
+        <Button
+            android:id="@+id/notnowbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_notnow"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:textAlignment="center"
+            android:textColor="@color/White"
+            android:background="@color/colorPrimary"
+            android:layout_toEndOf="@+id/momabtn"
+            android:textSize="10sp"/>
+    </RelativeLayout>
+
+</LinearLayout>

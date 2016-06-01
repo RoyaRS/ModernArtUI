@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/lay_main_vert"
+    android:background="#000000"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_main"
+    tools:context="com.example.roya.modernart.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/lay_main_hrz"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:orientation="horizontal"
+        android:baselineAligned="false">
+
+    <LinearLayout
+        android:id="@+id/lay_left"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".4"
+        android:orientation="vertical">
+    <View
+        android:id="@+id/stateblue_rect"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:background="@color/mSlateBlue"/>
+
+        <View
+            android:id="@+id/brdr1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".01"
+            android:background="#000000"/>
+        <View
+            android:id="@+id/brdr2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".01"
+            android:background="#000000"/>
+
+    <View
+        android:id="@+id/violet_rect"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:background="@color/pVioletRed"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.01"
+        android:background="#000000">
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lay_right"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".559"
+        android:orientation="vertical">
+        <View
+            android:id="@+id/maroon_rect"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".32"
+            android:background="@color/Maroon"/>
+        <View
+            android:id="@+id/brdr3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".01"
+            android:background="#000000"/>
+        <View
+            android:id="@+id/brdr4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".01"
+            android:background="#000000"/>
+        <View
+            android:id="@+id/lightgray_rect"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.32"
+            android:background="@color/LightGray"
+            />
+        <View
+            android:id="@+id/brdr5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".01"
+            android:background="#000000"/>
+        <View
+            android:id="@+id/brdr6"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".01"
+            android:background="#000000"/>
+        <View
+            android:id="@+id/midnightblue_rect"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.32"
+            android:background="@color/MidnightBlue"
+            />
+
+    </LinearLayout>
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/skbar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:max="100"/>
+
+</LinearLayout>
